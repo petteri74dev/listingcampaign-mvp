@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ListingTwin — One listing in. Eight campaign assets out.</title>
+  <meta name="description" content="Turn listing photos into eight channel-specific, publish-ready campaign assets for Instagram, TikTok, Facebook and YouTube.">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ListingTwin — One listing in. Eight campaign assets out.">
+  <meta property="og:description" content="A recurring content workflow for active agents and lean brokerage teams.">
+  <meta property="og:image" content="og.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="shared/base.css">
+  <link rel="stylesheet" href="site.css">
+  <script src="config.js" defer></script>
+  <script src="shared/core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand-lockup" href="./" aria-label="ListingTwin home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 11.5 12 5l8 6.5v7a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5v-7Z" stroke="currentColor" stroke-width="2"/><path d="M9 20v-6h6v6" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+        ListingTwin
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#demo">Live preview</a>
+        <a href="#workflow">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a class="button button--small" href="#pilot" data-track="Hero CTA Clicked" data-track-label="Header pilot CTA">Start a pilot</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>☰</button>
+    </div>
+    <nav class="mobile-menu" aria-label="Mobile navigation" data-mobile-menu hidden>
+      <a href="#demo">Live preview</a>
+      <a href="#workflow">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#pilot">Start a pilot</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section section--campaign-hero" id="demo">
+      <div class="container">
+        <div class="section-heading campaign-heading">
+          <div>
+            <p class="eyebrow">Interactive campaign studio</p>
+            <h1>One listing in. Eight campaign assets out.</h1>
+          </div>
+          <p>Add up to six property photos and the listing facts. ListingTwin turns them into six visual systems, channel-specific layouts, copy and a launch sequence — ready for Instagram, TikTok, Facebook and YouTube.</p>
+        </div>
+
+        <div class="campaign-studio" data-campaign-studio>
+          <aside class="campaign-controls">
+            <div class="control-group">
+              <p class="step-label"><span>1</span> Add the source photos</p>
+              <h3>Choose 1–6 property images</h3>
+              <label class="upload-zone campaign-upload">
+                <input type="file" accept="image/png,image/jpeg,image/webp" multiple data-demo-file>
+                <span>
+                  <strong data-upload-label>Choose property photos</strong>
+                  <small>Exterior, rooms and details · JPG, PNG or WebP</small>
+                </span>
+              </label>
+              <p class="upload-summary" data-upload-summary>No photos loaded — the sample campaign uses placeholder imagery.</p>
+              <div class="upload-thumbs" data-upload-thumbs aria-label="Selected image previews"></div>
+              <p class="privacy-note">Photos stay on this device. Nothing is uploaded by this demo.</p>
+            </div>
+
+            <div class="control-group">
+              <p class="step-label"><span>2</span> Add the listing facts</p>
+              <div class="control-fields">
+                <label class="control-label" for="demo-address">Property address</label>
+                <input class="field" id="demo-address" type="text" value="22 Seaview Road" data-demo-address>
+
+                <div class="control-field-pair">
+                  <label>
+                    <span class="control-label">Property details</span>
+                    <input class="field" type="text" value="4 rooms · 2 baths · 148 m²" data-demo-details>
+                  </label>
+                  <label>
+                    <span class="control-label">Agent name</span>
+                    <input class="field" type="text" value="Alex Morgan" data-demo-agent>
+                  </label>
+                </div>
+
+                <label>
+                  <span class="control-label">Key selling point</span>
+                  <textarea class="textarea-field" rows="3" data-demo-highlight>Sea views, a private terrace and a bright open-plan living space.</textarea>
+                </label>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <p class="step-label"><span>3</span> Choose the campaign system</p>
+              <div class="choice-row" role="radiogroup" aria-label="Campaign style">
+                <label class="choice-chip"><input type="radio" name="listing-style" value="Editorial" checked><span>Editorial</span></label>
+                <label class="choice-chip"><input type="radio" name="listing-style" value="Warm"><span>Warm</span></label>
+                <label class="choice-chip"><input type="radio" name="listing-style" value="Luxury"><span>Luxury</span></label>
+                <label class="choice-chip"><input type="radio" name="listing-style" value="Nordic"><span>Nordic</span></label>
+                <label class="choice-chip"><input type="radio" name="listing-style" value="Bold"><span>Bold</span></label>
+                <label class="choice-chip"><input type="radio" name="listing-style" value="Cinematic"><span>Cinematic</span></label>
+              </div>
+              <p class="style-explainer">Each system changes composition, typography, crop treatment, tone of voice and calls to action — not just colour.</p>
+              <button class="button button--brand button--wide" type="button" data-demo-generate>Build 8 campaign assets</button>
+            </div>
+          </aside>
+
+          <div class="campaign-workspace">
+            <div class="campaign-toolbar">
+              <span class="status-pill" data-demo-status aria-live="polite"><i></i><span data-status-text>Ready for listing details</span></span>
+              <span class="output-label">Campaign system · <b data-output-style>Editorial</b></span>
+            </div>
+
+            <div class="campaign-overview">
+              <div>
+                <span>Campaign prepared for</span>
+                <strong data-output-address>22 Seaview Road</strong>
+                <small data-output-details>4 rooms · 2 baths · 148 m²</small>
+              </div>
+              <div class="deliverable-count"><strong>8</strong><span>deliverables</span></div>
+            </div>
+
+            <div class="campaign-assets theme-editorial" data-output-stage>
+              <article class="asset-panel asset-feed">
+                <header class="asset-head">
+                  <div><span>Instagram feed</span><strong>4:5 · 1080 × 1350</strong></div>
+                  <div class="asset-actions"><button type="button" data-share-asset="feed">Share</button><button type="button" data-download-asset="feed">Download PNG</button></div>
+                </header>
+                <div class="creative creative-feed">
+                  <div class="creative-photo" data-image-slot="0"></div>
+                  <div class="creative-copy">
+                    <span class="creative-kicker" data-output-kicker>JUST LISTED</span>
+                    <h3 data-output-hook>A home designed for everyday life.</h3>
+                    <p data-output-address>22 Seaview Road</p>
+                    <small data-output-details>4 rooms · 2 baths · 148 m²</small>
+                    <b data-output-cta>SAVE THIS HOME</b>
+                  </div>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-story">
+                <header class="asset-head">
+                  <div><span>Instagram + Facebook Story</span><strong>9:16 · 1080 × 1920</strong></div>
+                  <div class="asset-actions"><button type="button" data-share-asset="story">Share</button><button type="button" data-download-asset="story">Download PNG</button></div>
+                </header>
+                <div class="creative creative-story">
+                  <div class="creative-photo" data-image-slot="1"></div>
+                  <span class="story-brand">LISTINGTWIN × YOUR BRAND</span>
+                  <div class="story-copy">
+                    <span data-output-kicker>JUST LISTED</span>
+                    <h3 data-output-address>22 Seaview Road</h3>
+                    <p data-output-hook>A home designed for everyday life.</p>
+                    <b data-output-cta>SAVE THIS HOME</b>
+                  </div>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-carousel">
+                <header class="asset-head">
+                  <div><span>Carousel</span><strong>3 of 5 slides shown</strong></div>
+                  <button type="button" data-download-asset="carousel">Download cover</button>
+                </header>
+                <div class="carousel-deck">
+                  <div class="carousel-slide carousel-cover">
+                    <div class="creative-photo" data-image-slot="0"></div>
+                    <div><span data-output-kicker>JUST LISTED</span><strong data-output-address>22 Seaview Road</strong><small>Swipe for the tour →</small></div>
+                  </div>
+                  <div class="carousel-slide carousel-detail">
+                    <div class="creative-photo" data-image-slot="1"></div>
+                    <div><span>THE DETAILS</span><strong data-output-details>4 rooms · 2 baths · 148 m²</strong></div>
+                  </div>
+                  <div class="carousel-slide carousel-feature">
+                    <div class="creative-photo" data-image-slot="2"></div>
+                    <div><span>WHY YOU'LL LOVE IT</span><strong data-output-highlight>Sea views, a private terrace and a bright open-plan living space.</strong></div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-tiktok">
+                <header class="asset-head">
+                  <div><span>TikTok photo post</span><strong>9:16 cover + hook · 1080 × 1920</strong></div>
+                  <div class="asset-actions"><button type="button" data-share-asset="tiktok">Share</button><button type="button" data-download-asset="tiktok">Download cover</button></div>
+                </header>
+                <div class="creative creative-tiktok">
+                  <div class="creative-photo" data-image-slot="2"></div>
+                  <span class="tiktok-brand">LISTINGTWIN × YOUR BRAND</span>
+                  <div class="tiktok-copy">
+                    <span data-output-kicker>JUST LISTED</span>
+                    <h3 data-output-hook>A home designed for everyday life.</h3>
+                    <p data-output-address>22 Seaview Road</p>
+                    <b>3-photo tour · tap for details</b>
+                  </div>
+                  <div class="tiktok-rail" aria-hidden="true"><span>♡</span><span>◌</span><span>↗</span></div>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-reel">
+                <header class="asset-head">
+                  <div><span>15-second Reel</span><strong>Storyboard + shot order</strong></div>
+                  <span class="asset-ready">READY</span>
+                </header>
+                <div class="reel-board">
+                  <div class="reel-phone">
+                    <div class="reel-scene reel-scene--hero" data-image-slot="0"><span>0–03s</span><strong data-output-hook>A home designed for everyday life.</strong></div>
+                    <div class="reel-scene" data-image-slot="1"><span>03–07s</span><strong>Lead with the strongest room</strong></div>
+                    <div class="reel-scene" data-image-slot="2"><span>07–11s</span><strong data-output-highlight>Private terrace and sea views</strong></div>
+                    <div class="reel-scene reel-scene--cta"><span>11–15s</span><strong data-output-cta>SAVE THIS HOME</strong></div>
+                  </div>
+                  <ol class="reel-notes">
+                    <li><b>Hook</b><span data-output-hook>A home designed for everyday life.</span></li>
+                    <li><b>Pacing</b><span>4 cuts · gentle push-in · caption safe zones</span></li>
+                    <li><b>End card</b><span><span data-output-agent>Alex Morgan</span> · private viewing CTA</span></li>
+                  </ol>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-copy">
+                <header class="asset-head">
+                  <div><span>Ready-to-post copy</span><strong>Instagram, TikTok, hashtags and email</strong></div>
+                  <span class="asset-ready">4 VERSIONS</span>
+                </header>
+                <div class="copy-pack">
+                  <div class="copy-block">
+                    <div><span>Instagram caption</span><button type="button" data-copy-target="caption">Copy</button></div>
+                    <p data-copy-content="caption">Now on the market: 22 Seaview Road.</p>
+                  </div>
+                  <div class="copy-block">
+                    <div><span>Hashtag set</span><button type="button" data-copy-target="hashtags">Copy</button></div>
+                    <p data-copy-content="hashtags">#22SeaviewRoad #JustListed #NewListing #PropertyTour #RealEstate</p>
+                  </div>
+                  <div class="copy-block">
+                    <div><span>TikTok caption</span><button type="button" data-copy-target="tiktok">Copy</button></div>
+                    <p data-copy-content="tiktok">POV: you found the home with the sea view. Tour 22 Seaview Road.</p>
+                  </div>
+                  <div class="copy-block">
+                    <div><span>Email subject</span><button type="button" data-copy-target="email">Copy</button></div>
+                    <p data-copy-content="email">New listing: 22 Seaview Road — private viewing now available</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-plan">
+                <header class="asset-head">
+                  <div><span>Launch sequence</span><strong>6-day campaign plan</strong></div>
+                  <span class="asset-ready">SCHEDULED</span>
+                </header>
+                <div class="launch-plan">
+                  <div><b>DAY 1</b><span>Instagram + Facebook reveal</span><small>Reach + saves</small></div>
+                  <div><b>DAY 2</b><span>Story tour</span><small>Replies + viewing CTA</small></div>
+                  <div><b>DAY 4</b><span>TikTok + Reel</span><small>Discovery + shares</small></div>
+                  <div><b>DAY 6</b><span>Carousel + YouTube Short</span><small>Details + retargeting</small></div>
+                </div>
+              </article>
+
+              <article class="asset-panel asset-publish">
+                <header class="asset-head">
+                  <div><span>Connect &amp; publish</span><strong>OAuth account links + phone share sheet</strong></div>
+                  <span class="asset-ready" data-social-mode>DEMO MODE</span>
+                </header>
+                <div class="publish-panel">
+                  <div class="publish-intro">
+                    <div><span>Recommended channel stack</span><strong>Instagram + Facebook first, TikTok and YouTube Shorts for discovery.</strong></div>
+                    <p>Connect once, then publish approved campaign assets without downloading and copying between apps.</p>
+                  </div>
+
+                  <div class="social-channel-grid" aria-label="Social account connections">
+                    <article class="social-channel" data-social-provider="instagram">
+                      <span class="social-mark social-mark--instagram">IG</span>
+                      <div><strong>Instagram</strong><small>Feed, carousel &amp; Reel</small></div>
+                      <button type="button" data-connect-provider="instagram">Connect</button>
+                    </article>
+                    <article class="social-channel" data-social-provider="tiktok">
+                      <span class="social-mark social-mark--tiktok">TT</span>
+                      <div><strong>TikTok</strong><small>Photo post &amp; video</small></div>
+                      <button type="button" data-connect-provider="tiktok">Connect</button>
+                    </article>
+                    <article class="social-channel" data-social-provider="facebook">
+                      <span class="social-mark social-mark--facebook">f</span>
+                      <div><strong>Facebook Page</strong><small>Post &amp; Reel</small></div>
+                      <button type="button" data-connect-provider="facebook">Connect</button>
+                    </article>
+                    <article class="social-channel" data-social-provider="youtube">
+                      <span class="social-mark social-mark--youtube">▶</span>
+                      <div><strong>YouTube</strong><small>Shorts after MP4 render</small></div>
+                      <button type="button" data-connect-provider="youtube">Connect</button>
+                    </article>
+                  </div>
+
+                  <div class="publish-controls">
+                    <fieldset class="channel-selection">
+                      <legend>Publish to</legend>
+                      <label><input type="checkbox" name="publish-channel" value="instagram" checked><span>Instagram</span></label>
+                      <label><input type="checkbox" name="publish-channel" value="tiktok" checked><span>TikTok</span></label>
+                      <label><input type="checkbox" name="publish-channel" value="facebook" checked><span>Facebook</span></label>
+                      <label><input type="checkbox" name="publish-channel" value="youtube" disabled><span>YouTube · needs MP4</span></label>
+                    </fieldset>
+                    <div class="publish-buttons">
+                      <button class="button button--ghost" type="button" data-share-campaign>Share vertical creative now</button>
+                      <button class="button button--brand" type="button" data-publish-campaign>Publish selected</button>
+                    </div>
+                  </div>
+                  <p class="social-status" data-social-status aria-live="polite">The phone share button works immediately on supported mobile browsers. Direct publishing activates when the secure OAuth backend is configured.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <p class="campaign-disclaimer"><strong>What this demo really does:</strong> it creates channel-specific layouts, crops, copy and downloadable PNGs in your browser, and can hand a finished visual to your phone's native share sheet. Direct publishing requires approved Meta, TikTok and Google apps plus a secure backend; tokens are never stored in this page.</p>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="outputs">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">One recurring workflow</p><h2>Everything a listing launch needs.</h2></div>
+          <p>Not another generic image generator. ListingTwin packages the repeatable work around every new property.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon">▶</div><h3>Listing reels</h3><p>Vertical and landscape edits with captions, pacing, music and optional agent voice.</p></article>
+          <article class="feature-card"><div class="feature-icon">▦</div><h3>Social campaign</h3><p>Carousels, stories, open-house graphics and platform-ready crops from one source.</p></article>
+          <article class="feature-card"><div class="feature-icon">✦</div><h3>Photo concepts</h3><p>Human-reviewed twilight, declutter and staging concepts without changing property facts.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="workflow">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">How the pilot works</p><h2>Start before the full software exists.</h2></div>
+          <p>During the founding pilot, automation and human review work together. You get the outcome while we learn the workflow worth productizing.</p>
+        </div>
+        <div class="workflow">
+          <article class="workflow-step"><b>01</b><h3>Share the listing</h3><p>Send approved photos, property facts, brand assets and the channels you use.</p></article>
+          <article class="workflow-step"><b>02</b><h3>We build the campaign</h3><p>AI accelerates production; a human checks identity, property facts, branding and output quality.</p></article>
+          <article class="workflow-step"><b>03</b><h3>Approve and publish</h3><p>Receive organized, channel-ready assets and one revision round in the pilot workspace.</p></article>
+        </div>
+        <div class="pilot-callout"><div><strong>The pilot is a real delivered service.</strong><p>No fake “generate” button, no annual lock-in and no claim that a missing backend already exists.</p></div><a class="button" href="#pilot">Claim a founding slot</a></div>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Founding pricing</p><h2>Priced by listing volume, not pixels.</h2></div>
+          <p>Monthly plans make the buying decision easy. Founding customers keep their pilot price for six months after the self-service product launches.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card"><h3>Solo</h3><p>For an active individual agent testing a repeatable listing workflow.</p><div class="price"><strong>€99</strong><span>/ month</span></div><ul class="price-list"><li>Up to 4 listings</li><li>Reel + social kit per listing</li><li>One brand profile</li><li>Human QA</li></ul><a class="button button--ghost button--wide" href="#pilot" data-plan-select="solo">Choose Solo</a></article>
+          <article class="price-card price-card--featured"><span class="popular-tag">Best pilot fit</span><h3>Team</h3><p>For lean brokerages that want one consistent campaign system.</p><div class="price"><strong>€299</strong><span>/ month</span></div><ul class="price-list"><li>Up to 20 listings</li><li>Everything in Solo</li><li>Five agent brand profiles</li><li>Priority queue + shared review</li></ul><a class="button button--brand button--wide" href="#pilot" data-plan-select="team">Choose Team</a></article>
+          <article class="price-card"><h3>Brokerage</h3><p>For higher-volume offices needing governance and white-label delivery.</p><div class="price"><strong>€699</strong><span>/ month</span></div><ul class="price-list"><li>Up to 60 listings</li><li>Unlimited agent profiles</li><li>White-label asset delivery</li><li>Workflow design session</li></ul><a class="button button--ghost button--wide" href="#pilot" data-plan-select="brokerage">Choose Brokerage</a></article>
+        </div>
+        <p class="pricing-note">Pilot delivery scope is confirmed before invoicing. Cancel before the next monthly renewal. Property facts and marketing permissions remain the customer's responsibility.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="faq">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Straight answers</p><h2>Before you put a seller's name on it.</h2></div><p>The pilot is intentionally transparent about what is automated and what is manually reviewed.</p></div>
+        <div class="faq-list">
+          <details><summary>Is this already a fully automated AI platform?</summary><p>No. This market-test MVP sells a concierge pilot. AI assists production and human review protects property facts, brand consistency and output quality. Repeated workflows will be automated after paid demand is proven.</p></details>
+          <details><summary>Will you invent furniture or property details?</summary><p>Staging concepts are clearly identified and never used to alter structural facts, dimensions, condition or included features. The agent approves every transformed asset before publication.</p></details>
+          <details><summary>Can we use our own logo, fonts and agent voice?</summary><p>Yes. Team and Brokerage pilots include a reusable brand profile. Voice cloning is used only with explicit, recorded consent from the person whose voice is replicated.</p></details>
+          <details><summary>What do you need from us?</summary><p>Approved photos, verified property facts, brand assets, target channels and confirmation that you have permission to use the submitted material.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="pilot-section" id="pilot">
+      <div class="container">
+        <div class="pilot-panel">
+          <div class="pilot-copy"><p class="eyebrow">Five founding teams</p><h2>Put your next listing through the pilot.</h2><p>Tell us your monthly volume. We will reply with a sample plan and confirm whether the workflow fits before asking for payment.</p><ul class="pilot-bullets"><li>One private sample using approved assets</li><li>Founding price held for six months</li><li>No annual contract during validation</li></ul></div>
+          <form class="lead-card form-grid" name="listingtwin-pilot" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="bot-field" data-lead-form>
+            <input type="hidden" name="form-name" value="listingtwin-pilot">
+            <p class="bot-field"><label>Do not fill this out <input name="bot-field"></label></p>
+            <h3>Request a founding slot</h3><p>Qualified applications receive a personal reply, not a drip campaign.</p>
+            <div class="form-row"><div class="form-field"><label for="lt-name">Name</label><input class="field" id="lt-name" name="name" autocomplete="name" required></div><div class="form-field"><label for="lt-email">Work email</label><input class="field" id="lt-email" name="email" type="email" autocomplete="email" required></div></div>
+            <div class="form-field"><label for="lt-company">Agency or brokerage</label><input class="field" id="lt-company" name="company" autocomplete="organization" required></div>
+            <div class="form-field"><label for="lt-url">Website or active listing URL</label><input class="field" id="lt-url" name="website" type="url" placeholder="https://" required></div>
+            <div class="form-row"><div class="form-field"><label for="lt-volume">Listings per month</label><select class="select-field" id="lt-volume" name="monthly_volume" required><option value="">Choose…</option><option>1–3</option><option>4–10</option><option>11–25</option><option>26–60</option><option>60+</option></select></div><div class="form-field"><label for="lt-plan">Plan</label><select class="select-field" id="lt-plan" name="plan" required><option value="team">Team · €299</option><option value="solo">Solo · €99</option><option value="brokerage">Brokerage · €699</option></select></div></div>
+            <label class="form-check"><input type="checkbox" name="consent" value="yes" required><span>I agree that my details may be used to assess and reply to this pilot application. See the <a href="privacy.html">privacy notice</a>.</span></label>
+            <button class="button button--brand button--wide" type="submit">Request pilot access</button>
+            <p class="form-footnote">No payment is taken on this page.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><a class="brand-lockup" href="./"><span class="brand-mark" aria-hidden="true">⌂</span>ListingTwin</a><div class="footer-meta"><span>© <span data-year></span> <span data-legal-name></span></span><span>Concierge market-test MVP</span></div><div class="footer-links"><a href="privacy.html">Privacy</a><a href="#faq">FAQ</a><a data-contact-email href="mailto:configure-before-launch@example.com">Contact</a></div></div></footer>
+</body>
+</html>
